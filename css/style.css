@@ -1,0 +1,181 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Patua One', cursive;
+    width: 100% !important;
+	height: 100% !important;
+}
+
+.navbar{
+   background-color: black !important; 
+   height: auto;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-weight: 400;
+    margin-left: 2rem;
+}
+
+.navbar a{
+    color: white !important;
+    margin-right: 2rem;
+}
+
+.navbar a :hover{
+    color: darkgray !important;
+}
+
+.intro {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: url(../img/Background.jpg) center center no-repeat;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+.intro .overlay {
+	background: rgba(0,0,0,0.2);
+}
+.intro h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 82px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.intro p {
+	color: white;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 30px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+header .intro-text {
+	padding-top: 350px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+
+#about {
+	padding: 20px 0;
+}
+
+#about h2 {
+    position: relative;
+    font-size: 24px;
+	font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding-bottom: 5px;
+}
+
+#about img {
+	width: 520px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+	background: #fff;
+	border-right: 0;
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+}
+#about p {
+    line-height: 24px;
+}
+
+#services {
+	padding: 50px 0;
+	background: #333333;
+	color: #fff;
+}
+#services .service-desc {
+	margin: 10px 10px 20px;
+}
+#services h2 {
+	color: #fff;
+}
+
+#services i.fab {
+	font-size: 82px;
+	width: 120px;
+	height: 120px;
+	padding: 40px 0;
+	border-radius: 50%;
+	color: #fff;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+}
+#services h3 {
+	font-weight: 500;
+	padding: 5px 0;
+	color: #fff;
+}
+#services p {
+	color: rgba(255,255,255,.75);
+}
+#services .service-desc {
+	margin-bottom: 40px;
+}
+
+#portfolio {
+    padding: 20px 0;
+}	
+
+#portfolio h1{
+    padding-bottom: 20px;
+}
+
+#portfolio img{
+    padding-bottom: 20px;
+}
+
+#team {
+    padding: 40px 0;
+    background: #333333;
+	color: #fff;
+}	
+
+#team h2{
+    padding-bottom: 20px;
+}
+
+#team img{
+    padding-bottom: 20px;
+}
+
+.section-cont{
+    margin-top: 20px;
+}
+
+
+#contact-form{    
+    padding-top: 40px;
+    padding-bottom: 2rem;
+}
+
+footer{
+    background-color: black !important; 
+    color: white !important;
+    height: 76px;
+    margin: 0 auto;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+
+
+
+@media print { 
+    .navbar {
+        display: inline-flex;
+        border-width:0 !important;
+    }
+    .navbar-toggle {
+        display:none;
+    }
+}
